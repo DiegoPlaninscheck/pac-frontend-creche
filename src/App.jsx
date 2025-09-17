@@ -25,11 +25,11 @@ const App = () => {
         <Route exact path='/pre-matricula-final' element={<PreMatriculaFinalPage />} />
         <Route exact path='/home-usuario' element={<HomeUserPage />} />
         <Route exact path='/visualizar-pre-matricula' element={<VisualizarPreMatriculaPage />} />
-        <Route exact path='/agendar-matricula' element={<AgendamentoMatriculaPage />} />
+        <Route exact path='/agendar-matricula' element={<AgendamentoMatriculaPage />} />
         {/* <Route exact path='/cadastro-usuario' element={<CadastroUsuarioPage />} /> */}
         {/* <Route exact path='/pre-matricula' element={<PreRegistrationPage />} /> */}
+        <SpeedInsights />
       </Routes>
-      <SpeedInsights/>
     </BrowserRouter>
   );
 };
