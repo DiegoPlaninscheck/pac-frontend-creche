@@ -10,7 +10,7 @@ import HomeUserPage from './pages/HomeUserPage';
 import VisualizarPreMatriculaPage from './pages/VisualizarPreMatriculaPage';
 import AgendamentoMatriculaPage from './pages/AgendamentoMatriculaPage';
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import './App.css';
 
@@ -28,8 +28,8 @@ const App = () => {
         <Route exact path='/agendar-matricula' element={<AgendamentoMatriculaPage />} />
         {/* <Route exact path='/cadastro-usuario' element={<CadastroUsuarioPage />} /> */}
         {/* <Route exact path='/pre-matricula' element={<PreRegistrationPage />} /> */}
-        <SpeedInsights />
       </Routes>
+      <SpeedInsights />
     </BrowserRouter>
   );
 };
